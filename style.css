@@ -1,0 +1,175 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+   
+}
+
+header {
+    background-color: #000000;
+    color:deepskyblue;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border:1px solid lightblue;
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 30px;
+    padding: 0;
+    
+    
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    
+    
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid deepskyblue;
+    padding:10px;
+    
+   
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color:rgb(150, 224, 150);
+    color: #000000;
+    text-align: center;
+    padding: 5px;
+}
+.a:hover{
+    box-shadow: 0.5px 0.5px 10px 1px deepskyblue;
+}
+
+#img{
+    background-image: url("KC-Portfolio-logos.jpeg");
+    background-size: cover;
+    width:90px;
+    height:90px;
+}
+input{
+    background-color: deepskyblue;
+    height:50px;
+    width:300px;
+}
+textarea{
+    background-color: deepskyblue;
+}
+input[type="submit"]{
+    background-color: rgb(254, 101, 101);
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #000000;
+    color: #fff;
+}
+
+p{
+    font-size: 30px;
+}
+
+#contact{
+    text-align: center;
+    font-size: 30px;
+}
+
+#info{
+    font-size: 100px;
+}
+
+#me{
+    background-image: url("joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg");
+    width:90%;
+    height:600px;
+    background-size: cover;
+}
+
+#nam{
+    color:darkturquoise;
+    width:200px;
+    height: 100px;
+    border-width: thin;
+     border-style:inset;
+     border-color: #000000;
+}
+
+#hireme{
+    font-size: 60px;
+    padding: 20px;
+    background-color:transparent;
+    color:#fff;
+    
+}
+
+#hireme:hover{
+    background-color: rgb(87, 249, 255);
+    color: #000000;
+    cursor: pointer;
+}
+
+#about{
+    text-align: center;
+    padding:90px;
+   background-color: #000000;
+    margin-left:15%;
+    margin-right: 15%;
+    margin-top: 1%;
+}
+
+#outer{
+    background-color: teal;
+    margin-left:15%;
+    margin-right: 15%;
+}
+
+#resume{
+    background-color: transparent;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#resume:hover{
+    background-color: hotpink;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+#html{
+    width:200px;
+    height: 5px;
+    background-color: deepskyblue;
+   
+}
+
+#css{
+    width:190px;
+    height: 5px;
+    background-color: deepskyblue;
+}
+
+#js{
+    width:180px;
+    height: 5px;
+    background-color: deepskyblue;
+}
+
+
+

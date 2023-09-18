@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KesavaChari- Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <span id="img"></span>
+        <h1>Kesava Chari</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" class="a">Home</a></li>
+                <li><a href="#portfolio" class="a">Portfolio</a></li>
+                <li><a href="#skills" class="a">Skills</a></li>
+                <li><a href="#about" class="a">About</a></li>
+                <li><a href="#projects" class="a">Projects</a></li>
+                <li><a href="#contact" class="a">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="me">
+        <h1 id="info">
+            I'M <br>
+        <span id="nam"></span>
+        </h1><br><br>
+        <a href=""><button id="hireme">Hire Me</button></a>
+    </section>
+    <section id="outer">
+    <section id="about">
+        <h1>About Me</h1>
+        <p>I'm a creative web developer, who loves clean,simple and unique design.</p>
+        <button  id="resume"><a href="C:\Users\Admin\OneDrive\Desktop\Resume-Kesava-Chari-Vantikaka.pdf" target="_blank">Download Resume</a></button>
+    </section>
+</section>
+<br>
+<br>
+<section id="skills">
+    <h1>Skills:</h1><br>
+    HTML: 100%<br>
+    <div id="html"></div><br><br>
+    CSS: 95% <br>
+    <div id="css"></div><br><br>
+    JavaScript: 90% <br>
+    <div id="js"></div><br><br>
+</section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>LBRCE College Website.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Score Keeper Game.</p>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <p>Simple Calculator.</p>
+        </div>
+        <div class="project">
+            <h3>Project 4</h3>
+            <p>Reciepe Blog Page.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="send_email.php" method="post"> 
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>   
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 KC</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
